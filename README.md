@@ -27,4 +27,4 @@ Para conferir o que foi criado , digite o comando:
 
 `ls -a`
 
-![terminal-01](images/terminal-01.jpg)
+![terminal-01](images/terminal-01.png)

@@ -96,3 +96,33 @@ Faremos o comando e novamente vamos ver o status do repositório.
 `$ git commit -m "Adicionando um README ao repositório"`
 
 ![terminal-05](images/terminal-05.png)
+
+
+## Well done!!!
+
+Agora, acabamos de fazer o nosso primeiro commit, ou seja, já dissemos ao nosso repositório GIT pra ele registrar o arquivo que acabamos de adicionar e ficar de olho caso haja alguma mudança. 
+
+Porém, essas mudanças estão apenas localmente no nosso computador, que tal deixar isso aberto para todos, além de ter nosso código armazenado na nuvem? Já sabe o que fazer? Isso mesmo!!! Vamos colocar nosso repositório no **github**!
+
+Acesse www.github.com e faça seu login (caso você ainda não possua uma conta no github, esta é a hora de criar)
+
+No canto esquerdo superior, há um botão verde escrito *New*, clique nele para criar um novo repositório!
+
+![browser-01](images/browser-01.png)
+
+Em seguida, escolha um nome para o repositório, uma descrição (opcional), selecione público, afinal queremos que todos vejam os incríveis códigos que nós fazemos e possam até nos ajudar a deixá-los mais incríveis ainda! Por fim, clique em ****
+
+![browser-02](images/browser-02.png)
+
+*Ps: Por enquanto, não precisamos selecionar para inicializar um README, licensa ou gitignore*
+
+Agora, provavelmente você encontrou uma página com algumas instruções, vamos usar a segunda delas, *…or push an existing repository from the command line*.
+
+Então, no nosso terminal digite os comando que o github já te sugere e veja o que acontece (tem um botão que já copia os comandos)!
+
+![terminal-06](images/terminal-06.png)
+
+
+
+
+

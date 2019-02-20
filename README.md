@@ -229,3 +229,17 @@ Um próximo passo, é estudar um pouco de colaboração no GIT, se por acaso voc
 
 Dá uma olhada [neste repositório](https://github.com/firstcontributions/first-contributions/blob/master/translations/README.pt_br.md), lá você aprende como fazer e de quebra ainda sai com um primeiro PR gratuito!
 
+
+## Meus contatos
+
+Caso você tenha alguma dúvida, crítica ou sugestão (ou queira só trocar uma ideia), fique a vontade!
+Você pode me encontrar por **@tyronedamasceno** em:
+-  Github
+-  Telegram
+-  Instagram
+
+Ou no e-mail **tyronedamasceno@gmail.com**
+
+
+Um grande abraço a todos!
+

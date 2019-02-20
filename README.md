@@ -122,7 +122,20 @@ Então, no nosso terminal digite os comando que o github já te sugere e veja o 
 
 ![terminal-06](images/terminal-06.png)
 
+## Opa, já podemos mostrar pra todo mundo nosso repositório no github!
 
+Mas antes, deixa eu te explicar o que nós fizemos, foram dois comandos:
 
+Primeiro:
 
+`git remote add origin https://github.com/tyronedamasceno/first-repo-tutorial.git`
 
+O que fizemos aqui é dizer ao nosso repositório local, onde nós fazemos as alterações, que existe agora um repositório remoto, este no github, e dissemos a ele o *link* para que eles possam se comunicar!
+
+No git, o link para um repositório remoto é chamado de *remote*, e uma convenção é que o "nome" principal dela seja **origin**, mas podemos chamar ele de qualquer coisa, como banana, por exemplo (mas preferencialmente usem o padrão: origin)
+
+Em seguida, usamos o `git push origin master`, ou seja, dissemos ao git para *push* (em português, empurrar) o nosso repositório local, para um repositório remoto chamado *origin*, e tudo isso feito na branch master (por enquanto não vamos pensar na branch, mas lembra deste nome que vai ser importante depois). 
+
+Agora, acesse o seu github e veja como está, no meu caso o link é https://github.com/tyronedamasceno/first-repo-tutorial, mas é só trocar para o seu usuário e o nome do seu repositório!
+
+![browser-03](images/browser-03.png)

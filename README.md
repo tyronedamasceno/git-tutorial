@@ -3,7 +3,7 @@ Tutorial de primeiros passos com GIT e Github!
 
 Olá! Eu sou Tyrone Damasceno, este rápido tutorial propõe explicar o que é e como se usa o a ferramenta de controle de versão GIT, e sua principal (*minha opinião*) plataforma, o Github.
 
-A esta altura, espero que você já tenha visto a introdução de conceitos nos slides, mas caso contrário é só clicar [aqui](slides/slides.pdf)!
+A esta altura, espero que você já tenha visto a introdução de conceitos nos slides, mas caso contrário é só acessar os [slides online](https://slides.com/tyronedamasceno/deck) ou fazer o download [aqui](slides/slides.pdf)!
 
 ## Vamos lá, mão na massa!
 

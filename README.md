@@ -218,3 +218,14 @@ No seu repositório do github clique no link para uma descrição dos seus commi
 Então vocês devem ver uma página descrevendo as mudanças que ocorreram nos nossos arquivos. As linhas em vermelho existiam antes e foram apagadas, enquanto as verdes foram adicionadas nesta nova versão!
 
 ![browser-07](images/browser-07.png)
+
+## Nossa! Cansei!
+
+Então, aprendemos muita coisa ein! Acredito que daqui pra frente você já consegue criar seus commits e manter uma versão sempre atualizada dos seus projetos no github!
+
+O GIT ainda tem **MUITA** coisa que não vimos nesse tutorial, mas eu espero de verdade que tenha sido útil, e caso você tenha gostado, aperta na estrelinha que tem lá em cima haha! ![browser-08](images/browser-08.png)
+
+Um próximo passo, é estudar um pouco de colaboração no GIT, se por acaso você pensar em contribuir em algum projeto, você precisará saber alguns comando sobre as branches, pull requests e merges que eu falei nos slides. 
+
+Dá uma olhada [neste repositório](https://github.com/firstcontributions/first-contributions/blob/master/translations/README.pt_br.md), lá você aprende como fazer e de quebra ainda sai com um primeiro PR gratuito!
+

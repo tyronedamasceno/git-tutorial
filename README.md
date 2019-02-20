@@ -139,3 +139,82 @@ Em seguida, usamos o `git push origin master`, ou seja, dissemos ao git para *pu
 Agora, acesse o seu github e veja como está, no meu caso o link é https://github.com/tyronedamasceno/first-repo-tutorial, mas é só trocar para o seu usuário e o nome do seu repositório!
 
 ![browser-03](images/browser-03.png)
+
+## Segue o jogo!
+
+Então, vamos rever rapidamente o que fizemos:
+
+-  Criamos um repositório GIT local
+-  Criamos um arquivo README nele
+-  Colocamos esse arquivo na staging area (`git add`)
+-  Fizemos um commit para que o arquivo (e suas mudanças) fossem monitoradas (`git commit`)
+-  Criamos um repositório no github
+-  Informamos ao nosso repositório local como se comunicar com o repositório remoto
+-  Enviamos as mudanças feitas no nosso repositório local para o repositório remoto
+
+Sim, é muita coisa, mas nem só de README vive um repositório, precisamos de **CÓDIGO**!
+
+Vamos então criar código no nosso repositório, eu sugiro criar uma pasta chamada `src` que armazenará nosso código, mas não é obrigatório. Então, no seu terminal, faça os seguintes comandos:
+
+```
+$ mkdir src
+$ touch src/hello_world.py
+$ git status
+```
+
+![terminal-07](images/terminal-07.png)
+
+Repare que o git informa que existe o diretório src não monitorado, mas não fala diretamente sobre seus subarquivos, já que ele também não os monitora. Vamos fazer nossas alterações e em seguidas veremos o que acontece.
+
+Vamos abrir nosso VSCode e escrever no arquivo para que ele imprima um *hello world* personalizado!
+
+![vscode-02](images/vscode-02.png)
+
+*Obs: Sugiro tentar fazer o próximo commit sozinho, pra ver se entendeu direitinho o fluxo, mas qualquer coisa só olhar aqui no tutorial que vamos juntos!*
+
+Certo! Agora criamos o nosso arquivo, vamos seguir o fluxo que já conhecemos e fazer um commit para indicar ao git que fizemos adicionamos esse arquivo e depois colocá-lo no github! Como nós já sabemos, antes do commit precisamos colocá-lo na staging area, porém nós queremos que todas as alterações que fizemos vão para esse local, então usamos o seguinte comando:
+
+`$ git add .`
+
+Como já dissemos antes, o argumento . significa "a pasta atual". Seguindo:
+
+```
+$ git commit -m "Adicionando nosso arquivo hello_world.py na pasta src"
+$ git push origin master
+```
+
+![terminal-08](images/terminal-08.png)
+
+Que tal uma conferida no nosso github???
+
+![browser-04](images/browser-04.png)
+
+**SHOW!!!** Agora, temos dois commits no nosso repositório e já temos código! Que tal alterar um pouquinho o nosso arquivo de hello_world para vermos como funcionam as alterações que não são criação de arquivo?
+
+Vamos novamente ao nosso editor de texto!
+
+![vscode-03](images/vscode-03.png)
+
+E em seguida, dá aquela conferida no terminal nas alterações!
+
+![terminal-09](images/terminal-09.png)
+
+Tem mudanças??? Vamos registrar tudo no git (com um commit) e enviar para nosso repositório no github, seguindo o mesmo fluxo de sempre!
+
+```
+$ git add .
+$ git commit -m "Incrementando o arquivo hello_world.py"
+$ git push origin master
+```
+
+Agora, olha lá no seu github as alterações!!!
+
+Uma ferramenta bacana é o comando `git diff`, você pode digitar ele diretamente no terminal, mas o github tem uma função que mostra as alterações que ocorreram entre duas versões do seu código!
+
+No seu repositório do github clique no link para uma descrição dos seus commits e em seguida clique no link para o último commit.
+
+![browser-05](images/browser-05.png)     **--->**     ![browser-06](images/browser-06.png)
+
+Então vocês devem ver uma página descrevendo as mudanças que ocorreram nos nossos arquivos. As linhas em vermelho existiam antes e foram apagadas, enquanto as verdes foram adicionadas nesta nova versão!
+
+![browser-07](images/browser-07.png)

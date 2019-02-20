@@ -25,7 +25,7 @@ Certo, agora você já criou uma pasta/diretório, precisamos transformar ela nu
 
 Para conferir o que foi criado , digite o comando:
 
-`ls -a`
+`$ ls -a`
 
 ![terminal-01](images/terminal-01.png)
 
@@ -128,13 +128,13 @@ Mas antes, deixa eu te explicar o que nós fizemos, foram dois comandos:
 
 Primeiro:
 
-`git remote add origin https://github.com/tyronedamasceno/first-repo-tutorial.git`
+`$ git remote add origin https://github.com/tyronedamasceno/first-repo-tutorial.git`
 
 O que fizemos aqui é dizer ao nosso repositório local, onde nós fazemos as alterações, que existe agora um repositório remoto, este no github, e dissemos a ele o *link* para que eles possam se comunicar!
 
 No git, o link para um repositório remoto é chamado de *remote*, e uma convenção é que o "nome" principal dela seja **origin**, mas podemos chamar ele de qualquer coisa, como banana, por exemplo (mas preferencialmente usem o padrão: origin)
 
-Em seguida, usamos o `git push origin master`, ou seja, dissemos ao git para *push* (em português, empurrar) o nosso repositório local, para um repositório remoto chamado *origin*, e tudo isso feito na branch master (por enquanto não vamos pensar na branch, mas lembra deste nome que vai ser importante depois). 
+Em seguida, usamos o `$ git push origin master`, ou seja, dissemos ao git para *push* (em português, empurrar) o nosso repositório local, para um repositório remoto chamado *origin*, e tudo isso feito na branch master (por enquanto não vamos pensar na branch, mas lembra deste nome que vai ser importante depois). 
 
 Agora, acesse o seu github e veja como está, no meu caso o link é https://github.com/tyronedamasceno/first-repo-tutorial, mas é só trocar para o seu usuário e o nome do seu repositório!
 

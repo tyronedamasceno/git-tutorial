@@ -1,7 +1,7 @@
 # Git Tutorial
 Tutorial de primeiros passos com GIT e Github!
 
-Olá! Eu sou Tyrone Damasceno, este rápido tutorial propõe explicar o que é e como se usa o a ferramenta de controle de versão GIT, e sua principal (*minha opinião*) plataforma, o Github.
+Olá! Eu sou Tyrone Damasceno, este rápido tutorial propõe explicar o que é e como se usa a ferramenta de controle de versão GIT, e sua principal (*minha opinião*) plataforma, o Github.
 
 A esta altura, espero que você já tenha visto a introdução de conceitos nos slides, mas caso contrário é só acessar os [slides online](https://slides.com/tyronedamasceno/deck) ou fazer o download [aqui](slides/slides.pdf)!
 
@@ -71,7 +71,9 @@ Você deve ver algo assim:
 ![terminal-03](images/terminal-03.png)
 
 Olha o que ele está te dizendo: O arquivo `README.md` não está monitorado. Antes de fazer o nosso commit (calma, ainda vou explicar o que é), precisamos adicionar ele a uma chamada *staging area*, que pode ser visto como uma sala de espera do seu repositório. 
+
 Imagina assim, o seu repositório tem todos os seus arquivos vivendo felizes, aí um novo arquivo chega (seja ele um arquivo ainda não monitorado ou um arquivo já monitorado com alterações), mas esse arquivo só pode entrar no seu repositório junto de alguns outros que você ainda está esperando chegar, então você deixa ele numa salinha de espera pra quando for a hora, todos entrarem juntos! 
+
 Caso ele seja algum arquivo que já existia e só traz algumas mudanças, o git automaticamente vai guardar uma *foto* do arquivo antigo, e uma descrição do que mudou nele. Essas mudanças são armazenadas na pasta `.git`, lembra dela? Nós a vimos lá quando criamos o repositório e digitamos `ls -a`.
 
 Após toda essa historinha (espero que tenha sido útil), vamos jogar o nosso arquivo na `staging area`, para isso, usamos o comando `add`, em seguida é interessante olhar novamente o status do repositório (eu disse que era o mais usado):
